@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+
+<!-- Mirrored from www.goopal.org/google-sites-business/automated-business-systems/apps-script-uploaders/google-sites-uploader by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Feb 2019 12:52:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var f=0<d?new e(d):new e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var b=window.jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",
+d),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" href="../../../_/rsrc/1334188538943/favicon.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="../../../_/rsrc/1334257346421/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<link rel="stylesheet" type="text/css" href="../../../../www.gstatic.com/sites/p/8e734b/system/app/pagetypes/filecabinet/filecabinet.css" />
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/google-sites-business","deleted":false,"title":"Google Sites for Business","dir":"ltr"},{"path":"/google-sites-business/automated-business-systems","deleted":false,"title":"Super Cloud Systems","dir":"ltr"},{"path":"/google-sites-business/automated-business-systems/apps-script-uploaders","deleted":false,"title":"Google Apps Script Uploaders","dir":"ltr"},{"path":"/google-sites-business/automated-business-systems/apps-script-uploaders/google-sites-uploader","deleted":false,"title":"Google Sites Uploader","dir":"ltr"}];
+  var JOT_clearDotPath = '../../../../www.gstatic.com/sites/p/8e734b/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["il y a une minute","il y a __duration__ minutes","il y a une heure","il y a __duration__ heures"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":true,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1867709844-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Google Sites Examples","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":"ca-pub-3171105121839427","features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"removeGooglePlusWidgets":true,"enableJot2Atari":true,"plusBadge":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttp://sites.google.com/site/drupalvsgoooglesites/google-sites-business/automated-business-systems/apps-script-uploaders/google-sites-uploader\u0026service\u003djotspot","analyticsAccountId":"UA-1475811-16","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":false,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/fr/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/8e734b/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/8e734b/system/js/codemirror.js","../../../../www.gstatic.com/sites/p/8e734b/system/app/css/codemirror_css.css","../../../../www.gstatic.com/sites/p/8e734b/system/js/trog_edit__fr.js","../../../../www.gstatic.com/sites/p/8e734b/system/app/css/trogedit.css","../../../_/rsrc/1549528915000/system/app/css/editor.css","../../../../www.gstatic.com/sites/p/8e734b/system/app/css/codeeditor.css","/_/rsrc/1549528915000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"","name":"drupalvsgoooglesites","siteTemplateId":false,"siteNoticeRevision":1,"siteNoticeUrlAddress":"/site/drupalvsgoooglesites/google-sites-examples-community","siteNoticeMessage":"","page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/google-sites-business/automated-business-systems/apps-script-uploaders","parentWuid":"wuid:gx:47e6b8deeebf38f3","siteLocale":"en","timeZone":"America/Los_Angeles","type":"filecabinet","title":"Google Sites Uploader","locale":"fr","wuid":"wuid:gx:382d766d9bac632d","revision":31,"path":"/google-sites-business/automated-business-systems/apps-script-uploaders/google-sites-uploader","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"google-sites-uploader","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/filecabinet","title":"Classeur"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<link rel="canonical" href="google-sites-uploader.html" />
+<meta name="google-site-verification" content="VZiggg-g5jKzvLziXEc9kjkG0p_eRPFk1MllTdFOLqY" />
+<meta name="title" content="Google Sites Uploader - Google Sites Examples" />
+<meta itemprop="name" content="Google Sites Uploader - Google Sites Examples" />
+<meta property="og:title" content="Google Sites Uploader - Google Sites Examples" />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="../../../../www.gstatic.com/sites/p/8e734b/system/app/themes/simplywhite/standard-css-simplywhite-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="../../../_/rsrc/1549528915000/system/app/css/overlayd37d.css?cb=simplywhite221a100%25367270goog-ws-nav-nosidecontent30middlecenter" />
+<link rel="stylesheet" type="text/css" href="../../../_/rsrc/1549528915000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Google Sites Uploader - Google Sites Examples</title>
+<meta itemprop="image" content="/_/rsrc/1389366025890/config/customLogo.gif?revision=46" />
+<meta property="og:image" content="/_/rsrc/1389366025890/config/customLogo.gif?revision=46" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox-centered" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="sites-header-title-centered sites-chrome-header-valign-middle" role="banner" style="height: 367px"><div class="sites-header-cell-buffer-wrapper"><a href="../../../index.html" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="../../../_/rsrc/1389366025890/config/customLogo6fa8.png?revision=46" alt="Google Sites Examples" class="sites-logo-centered sites-chrome-header-valign-middle " /></a><h2><a href="../../../index.html" dir="ltr" id="sites-chrome-userheader-title">Google Sites Examples</a></h2><div class="sites-layout-searchbox-centered sites-chrome-header-valign-middle"><form id="sites-searchbox-form" action="http://www.goopal.org/system/app/pages/customSearch" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="cse-goog_1871504516" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Google Sites Examples" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-select-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Google Sites Examples</div><div id="sites-searchbox-select-dropdown" class="goog-inline-block goog-flat-menu-button"><div class="goog-inline-block goog-flat-menu-button-caption"></div><div class="goog-inline-block goog-flat-menu-button-dropdown sites-jfk-menu-button-dropdown"> </div></div></div></form></div></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-links"><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed.html">Embed</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-html.html">Google Sites HTML</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-css.html">Google Sites CSS (CSS1 to CSS3)</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-ninja.html">Google Sites Javascript</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-design/google-sites-templates.html">Google Sites Templates</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-design.html">Google Sites Design</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-business.html">Google Sites for Business</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/custom-search-engine.html">CSE Custom Search Engine</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/google-code-examples.html">Google Code Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/google-code---custom-maps.html">Google Maps Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/flash-embed.html">Flash (*.SWF) - Embed</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/google-apis.html">Google API Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-html/live-html-editor.html">Live HTML Editor</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../google-sites-html.html">HTML</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-html/form-elements.html">HTML Form Elements</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-html/google-sites-forms.html">Contact Form</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-html/live-html-editor.html">Live HTML Editor</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-html/wysiwyg-html-examples.html">WYSIWYG HTML Editors</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/inline-css.html">CSS</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-css.html">Google Sites CSS (CSS1 to CSS3)</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-css/html-css-slider-no-javascript.html">HTML &amp; CSS Slider No JavaScript</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../google-sites-ninja.html">JavaScript</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-ninja/google-sites-jquery/jquery-ajax-form.html">jQuery AJAX Form</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-ninja/google-sites-jquery/jquery-css-rollover.html">jQuery CSS Rollover</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-ninja/google-sites-jquery/jquery-toggle-css.html">jQuery Toggle CSS</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../tools.html">Sites Ninja Tools</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../automated-business-systems.html">Super Cloud Systems</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples.html">Google Apps Script Examples</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../google-sites-design/google-sites-templates.html">Templates</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../business-forms/form-template.html">Form Template</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples/sites-service-email-template-using-a-webpage/email-template-for-apps-script.html">Html Email Template</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-design/google-sites-templates/pages-layout-templates.html">Page Layout Templates</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-design/google-sites-templates/sites-design-templates.html">Sites Design Templates</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-design.html">Design</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-design/material-design-for-google-sites.html">Material Design for Google Sites</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../google-sites-business.html">Business</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../automated-business-systems.html">Super Cloud Systems</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples.html">Google Apps Script Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../google-spreadsheets.html">Spreadsheet Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../business-forms.html">Business Forms</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../google-checkout-examples.html">Google Checkout Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../paypal-examples.html">PayPal Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-gadgets/google-gadgets-editor.html">Google Gadgets Editor</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../google-functions-xpath.html">Google Sheets Functions &amp; Xpath</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-examples-community.html">Business &amp; Community Collaboration</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../google-spreadsheets.html">Drive</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-features/google-plus-1.html">Google+ +1 Button</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-features/google-plus-profile-widget.html">Google+ Profile Widget</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../supergoopal.html">Super Goopal</a></div></div></li><li class="current sites-header-nav-dropdown"><a class="sites-navigation-link current" href="../../apps-script-examples.html">Apps Script</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples.html">Google Apps Script Examples</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples/apps-script-snippets.html">Library of Apps Script Snippets &amp; Objects - LASSO</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples/google-apps-script.html">Spreadsheet Service</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples/maps-service.html">Maps Service</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples/sites-service-email-template-using-a-webpage.html">Sites Service : Email Template using a Webpage</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../apps-script-examples/calendar-service.html">Calendar Service</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-features/google-apps-script-editor.html">Google Apps Script Editor</a></div><div class="sites-header-nav-dropdown-menuitem current"><a class="sites-navigation-link current" href="google-sites-uploader.html">Google Sites Uploader</a></div><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../advanced-booking-system.html">Advanced Booking System</a></div></div></li><li class="unselected sites-header-nav-dropdown"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/search-examples.html">Search</a><div class="sites-header-nav-dropdown-menu" style="display:none"><div class="sites-header-nav-dropdown-menuitem unselected"><a class="sites-navigation-link unselected" href="../../../Google-Sites-Embed/search-examples.html">Google Search for Examples</a></div></div></li><li class="unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-examples-community.html">Join the Community</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="../../../google-sites-features.html">New Features</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="display: none; width: 270px">
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<A href="../../../google-sites-business.html" dir="ltr">Google Sites for Business</A>‎ &gt; ‎<A href="../../automated-business-systems.html" dir="ltr">Super Cloud Systems</A>‎ &gt; ‎<A href="../apps-script-uploaders.html" dir="ltr">Google Apps Script Uploaders</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Google Sites Uploader</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-three-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div><br /><div style="text-align:right"><br /><a href="google-sites-uploader.html#TOC-Google-Sites-Uploader">Google Sites Uploader</a><br /><br /><a href="google-sites-uploader.html#TOC-Uploader-Permission">Uploader Permission</a><br /><br /><a href="google-sites-uploader.html#TOC-Permission-Security">Permission Security</a><br /><br /><a href="google-sites-uploader.html#TOC-Publishing-Configurations">Publishing Configurations</a><br /><br /><a href="google-sites-uploader.html#TOC-Optional-Uploader-System-Features:">Optional Uploader System Features:</a><br /><br /><a href="google-sites-uploader.html#TOC-Multiple-Apps-Script-Actions">Multiple Apps Script Actions</a><br /><br /><a href="google-sites-uploader.html#TOC-Apps-Script-Gadget---Google-Sites-Uploader">Apps Script Gadget - Google Sites Uploader</a><br /><br /><a href="google-sites-uploader.html#TOC-Sample-File-Uploaded">Sample File Uploaded</a><br /></div></div><br /></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr"><div dir="ltr">
+<div style="text-align:center">
+<div style="text-align:left">
+<h2><a name="TOC-1"></a><br />
+</h2>
+<h2><a name="TOC-Google-Sites-Uploader"></a>Google Sites Uploader</h2>
+A Google Sites Uploader allows the user to upload files into a list on a webpage, as if a n Admin of the Site.The 
+uploader can be created in Google Apps Script which can be developed 
+further into a powerful &amp; specific Cloud System.
+<div><br />
+</div>
+<div>It is possible too select as Admin - User Mode so the User permission, dictate the permissions allocated.</div>
+<div><br />
+</div>
+<h3><a name="TOC-Uploader-Permission"></a>Uploader Permission</h3>
+<div>The permissions of the Apps Script Gadget can be set as follows:</div>
+<div>
+<ul><li>Private</li>
+<li>Private Domain - Google Apps<br />
+</li>
+<li>Public - Signed-in Google Users</li>
+<li>Public allowing Anonymous Users</li></ul>
+</div>
+<div>
+<h3><a name="TOC-Permission-Security"></a>Permission Security</h3>
+</div>
+<div><i>The upload of files should be restricted by a simple pin / Capcha system to prevent malicious robot activity.</i></div>
+<div><br />
+</div>
+<div>The Google Apps Script Gadget can be embedded from the Insert Menu.</div>
+<div><br />
+</div>
+<h3><a name="TOC-Publishing-Configurations"></a>Publishing Configurations</h3>
+<div><br />
+</div>
+<div>An
+ Uploader is harder to debug than other Business or cloud systems so 
+creating a 'Blob' file to test is important. The following is a generic 
+file for testing with a number to make it unique. </div>
+<div><br />
+</div><span style="color:rgb(147,196,125)"><b>var rand = Math.random()*100000000000000000; <br />var Blob = Utilities.newBlob("Here is some data", "application/pdf", "FileUpload"+rand+".pdf");</b></span><div><br />
+</div>
+<div><i>Duplicate file uploads are given a assigned number. to overwrite a file you need find that specific filename to overwrite.</i></div>
+<div><br />
+</div>
+<h3><a name="TOC-Optional-Uploader-System-Features:"></a>Optional Uploader System Features:</h3>
+<div><br />
+</div>
+<div>Some important considerations for Additional Features.</div>
+<ul><li>Select specific filetypes i.e Pdfs</li>
+<li>Select Specific Folders</li>
+<li>Create Folder  with Pin Number only</li>
+<li>Upload any File type 'Blob' to Google drive</li>
+<li>Upload to Sites List page </li>
+<li>Notifications for List page / Drive</li>
+<li>Google User - Logged in </li>
+<li>Anonymous  - with Pin Number OR Verified Email [Approval System]</li>
+<li> Email Notifications or Email Attached File/s <br />
+</li></ul>
+</div>
+<div style="text-align:left">For Security Reasons Once you upload a file a <b>generic pdf file</b> with the Google Sites Uploader, the file will be created in the list below.  In this example the Admin is the Active User. </div>
+</div>
+<div style="text-align:left"><br />
+</div>
+<h3><a name="TOC-Multiple-Apps-Script-Actions"></a>Multiple Apps Script Actions</h3>
+<div style="text-align:left">It is also possible to upload to Google Drive simultaneously, or Email , or whatever service / API is available for you to access.</div>
+<div style="text-align:left"><br />
+</div>
+<div style="text-align:left">Multiple Apps Script Actions only require a single 'Blob' to be active in the cloud system then the 'Blob' can be define and can be sent, adjusted or edited.</div>
+<div style="text-align:left"><br />
+</div>
+<div style="text-align:left">A useful feature would be an Email Notification when a file is uploaded, or attached file/s depending on the Apps Script system required.</div>
+<div style="text-align:left"><br />
+</div>
+<h3><a name="TOC-Apps-Script-Gadget---Google-Sites-Uploader"></a>Apps Script Gadget - Google Sites Uploader</h3>
+<div style="text-align:left">
+<div style="text-align:center">[App working but publicly disabled by permissions]<br />
+<a href="https://security.google.com/settings/security/permissions" target="_blank">https://security.google.com/settings/security/permissions</a><br />
+<br />
+</div>
+<div style="text-align:center"><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-on sites-embed sites-embed-full-width" style="width:100%;"><h4 class="sites-embed-title">Apps Script Gadget - Google Sites Uploader</h4><div class="sites-embed-content sites-embed-type-maestro"><span><iframe src="javascript:void(0);" title="Apps Script Gadget - Google Sites Uploader" width="100%" height="200" frameborder="0" scrolling="no" id="maestro_frame_602707619"></iframe><script>var maestro_frame = document.getElementById('maestro_frame_602707619');maestro_frame.onload = function(frame) {  return function() { frame.contentWindow.postMessage('maestro-framing',   'https://sites.google.com/'); };}(maestro_frame);maestro_frame.src = '../../../../sites.google.com/macros/s/AKfycbwNPAzYDDQA5H1NOx61ObWpY2toOqfm0Z3UcK7w5fUBUUMsd2U/exec_frame2238.html?mid\x3dACjPJvEX9O65VAnv3eoST9HWNm6BZuyyI1ZEoPVjZPSsw8xr_DmY7HGFD68GM-EfysKDKdrCwdaTpLxdhkE1NR7Kl6NrKbT2C8G7hPY1hWdvg7_7i-L88vgINeZ3VUSUJJ5v36kIpTLKx-hr4mOc5iwOE9X95t08Gfp-ea4aD5QiIDlLuuelFu8mWJgJq4KDgFj_frnCdF9KsbxZhPauMFZ_1DmQ8svEY9Lj88P2PrObS1lE\x26bc\x3dtransparent\x26f\x3d\x27Roboto\x27,sans-serif\x26tc\x3d%237dc7ea\x26lc\x3d%237dc7ea';</script></span></div></div></div></div>
+</div>
+<div style="text-align:left">
+<h3><a name="TOC-2"></a><br />
+</h3>
+</div>
+<div style="text-align:center">
+<div style="text-align:left">
+<h3><a name="TOC-Sample-File-Uploaded"></a>Sample File Uploaded</h3>
+</div>
+Sample File uploaded to the Google Drive Folder.<br />
+[<b>Generic .pdf file</b>] <br />
+<br />
+</div>
+<div style="text-align:left"><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-on sites-embed" style="width:300px;"><h4 class="sites-embed-title">FileUploader Folder for Google Drive Uploader</h4><div class="sites-embed-object-title" style="display:none;">FileUploader</div><div class="sites-embed-content sites-embed-type-folder"><iframe src="http://drive.google.com/embeddedfolderview?hl=en&amp;id=0BzU_rJcQHTNFMUI4WjZUSmNUZUk#list" width="300" height="300" title="FileUploader" frameborder="0" class="folder_embed" id="958382982" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div></div></div></div>
+</div>
+</div></td><td class="sites-layout-tile sites-tile-name-content-3"><div dir="ltr"><br /><br /><a href="https://security.google.com/settings/security/permissions" target="_blank">Apps Script Permissions</a><br /></div></td></tr></tbody></table>
+</div> 
+<div id="filecabinet-body" class="filecabinet">
+<div xmlns="http://www.w3.org/1999/xhtml" id="JOT_FILECAB_wrapper__unfiled" class="collapsible"><table id="JOT_FILECAB_folder__unfiled" class="filecabinet-table"><thead style="display: none"><tr><th class="td-select">Sélection</th><th class="td-icon">Icône du type de fichier</th><th class="td-file">Nom du fichier</th><th class="td-desc filecabinet-desc">Description</th><th class="td-size">Taille</th><th class="td-rev">Révision</th><th class="td-time">Heure</th><th class="td-user">Utilisateur</th></tr></thead><tbody><tr id="JOT_FILECAB_container_wuid:gx:2a17feb4ceeee7d1">
+<td class="td-select"><input class="filecabinet-checkbox" type="checkbox" aria-labelledby="JOT_FILECAB_label_wuid:gx:2a17feb4ceeee7d1" /></td>
+<td class="td-icon" style="line-height:20px">
+<span class="sites-symbol sites-color-adobe-pdf" aria-label="Adobe PDF" title="Adobe PDF">Ċ</span>
+</td>
+<td class="td-file"><span class="td-value" id="JOT_FILECAB_label_wuid:gx:2a17feb4ceeee7d1" aria-hidden="true">FileUpload94423479971698880.pdf</span><br /><SPAN style="word-spacing: 3px;"><a href="http://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkcnVwYWx2c2dvb29nbGVzaXRlc3xneDoyYTE3ZmViNGNlZWVlN2Qx" rel="nofollow" dir="ltr" target="_blank">View</a> <a href="../../../../eb7a4875-a-62cb3a1a-s-sites.googlegroups.com/site/drupalvsgoooglesites/google-sites-business/automated-business-systems/apps-script-uploaders/google-sites-uploader/FileUpload944234799716988800c9a.pdf?attredirects=0&amp;d=1" rel="nofollow" dir="ltr" target="_blank">Download</a></SPAN></td>
+<td class="td-desc filecabinet-desc" tabindex="0" dir=""> </td>
+<td class="td-size" data-val="17">1k</td>
+<td class="td-rev" data-val="1">v. 1  </td>
+<td class="td-time" data-val="1383531010020">
+<script type="text/javascript">
+      //<![CDATA[
+        function JOT_insertRelDate(timestamp, absTimeStr, isSiteLocale, dir) {
+          var relTimeStr = JOT_formatRelativeToNow(timestamp, isSiteLocale);
+          if (relTimeStr) {
+            if (isSiteLocale) {
+              document.write('<span timestamp="' + timestamp + '" issitelocale="' + isSiteLocale +
+                '" title="' + absTimeStr + '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            } else {
+              document.write('<span timestamp="' + timestamp + '" title="' + absTimeStr +
+              '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            }
+          } else {
+            document.write(absTimeStr);
+          }
+        }
+      //]]>
+</script>
+<span dir="ltr">Nov 3, 2013, 6:10 PM</span>
+</td>
+<td class="td-user">Rory O Connor</td>
+</tr></tbody>
+</table>
+</div>
+</div>
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><div dir="ltr"><div style="border-top:#ff6600 solid 22px;padding-top:15px;padding-left:15px">
+</div>
+<div><img alt="Google Examples" src="../../../../lh6.googleusercontent.com/-OoZRFZSPy6s/UlRuSWsdifI/AAAAAAAAE9s/i5evxTglvF4/s50-no/google-examples.png" style="display:inline;margin:5px 10px 0px 0px;float:left" /><span style="display:inline;float:left">
+</span>
+<div><span style="display:block;float:left;margin-right:10px">
+<font color="#999999" size="32px">Google Sites Examples</font>
+</span>
+<div style="text-align:left;padding-top:15px;padding-bottom:15px"><font color="#cccccc" size="2"><span style="text-align:center">
+www.goopal.org - Google Sites Examples | Updates, Information </span><span style="text-align:center">&amp; Contact </span><span style="text-align:center">via </span><b style="text-align:center">Google+ Business Page</b><span style="text-align:center"> | All rights reserved. Not Affiliated with Google . 'Google Sites' are web sites from Google. For information on Google Products &amp; Services, please refer to all their respective policies.  | All Google </span></font><font color="#cccccc" size="2"><span style="text-align:center"><font color="#cccccc"><span style="text-align:center">Products/Services</span></font> implementations &amp; </span></font><font color="#cccccc" size="2"><span style="text-align:center"><font color="#cccccc"><span style="text-align:center">Google Sites </span></font>Examples </span></font><b style="font-size:x-small;text-align:center"><font color="#cccccc" size="2">by Rory O Connor IT Solutions [ rocits ] www.rocits.com . Live on YouTube. Join the G+ Google Sites Examples Community for the Latest Updates.<br /></font></b></div><div style="text-align:left;padding-top:15px;padding-bottom:15px;margin-left:80px"><b><font size="4"><a href="../../../Google-Sites-Embed.html">Embed</a><br /><a href="../../../google-sites-html.html">HTML</a><br /><a href="../../../Google-Sites-Embed/inline-css.html">CSS</a><br /><br /><a href="../../../google-sites-ninja.html">JavaScript</a><br /><a href="../../../google-sites-design/google-sites-templates.html">Templates</a><br /><a href="../../../google-sites-business.html">Business</a><br /><a href="../../apps-script-examples.html">Apps Script</a><br /><br /><a href="../../../Google-Sites-Embed/search-examples.html">Search</a><br /><a href="../../../google-sites-examples-community.html">Join the Community</a><br /><a href="../../../google-sites-features.html">New Features</a></font></b><br /></div><div style="text-align:left;padding-top:15px;padding-bottom:15px">
+<div> </div>
+<div>
+</div>
+<h3 style="text-align:center">
+<span dir="ltr" style="outline:none">www.goopal.org - Google Sites Examples</span>
+</h3><b style="font-size:x-small;text-align:center">
+<div><font size="3">
+</font>
+<hr style="color:#999999" /></div>
+</b></div>
+</div>
+</div></div></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="http://sites.google.com/site/drupalvsgoooglesites/system/app/pages/reportAbuse" target="_blank">Signaler un abus</a><span aria-hidden="true">|</span><span class="sites-system-link">Avec la technologie de</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="../../../../www.gstatic.com/sites/p/8e734b/system/js/jot_min_filecabinet_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                JOT_postEvent('moduleLoad');
+              </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-select-button',
+                        {"object":[{"action":"/system/app/pages/search","id":"search-site","label":"Search this site"},{"action":"/system/app/pages/customSearch","id":"search-web","label":"Search web"},{"action":"/system/app/pages/customSearch","id":"cse-goog_1871504516","label":"Google Sites Examples"}]}['object'],
+                        'cse-goog_1871504516',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('../../../_/tz.html', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+        JOT_insertTranslateCode('fr', 'en');
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+
+<!-- Mirrored from www.goopal.org/google-sites-business/automated-business-systems/apps-script-uploaders/google-sites-uploader by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Feb 2019 12:52:05 GMT -->
+</html>
